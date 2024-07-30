@@ -1,0 +1,14 @@
+{
+    "name": "php94/db",
+    "description": "database",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "catfan/medoo": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHP94\\Db\\": "src/"
+        }
+    }
+}
